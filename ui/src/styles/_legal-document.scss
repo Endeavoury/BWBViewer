@@ -1,0 +1,138 @@
+.section {
+  margin: 0 0 22px;
+  padding-top: 4px;
+}
+
+.section-title {
+  margin: 0 0 12px;
+  color: var(--accent);
+  font-size: clamp(1.15rem, 2vw, 1.65rem);
+  line-height: 1.2;
+}
+
+.article {
+  margin: 0 0 18px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfbfa;
+  scroll-margin-top: 132px;
+}
+
+.article-authority {
+  border-color: rgba(154, 79, 45, 0.42);
+  background: #fff9f4;
+  box-shadow: inset 4px 0 0 var(--accent-2);
+}
+
+.article-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 12px;
+
+  h3 {
+    flex: 1;
+    margin: 0;
+    font-size: 1.05rem;
+  }
+}
+
+.authority-badge {
+  flex: 0 0 auto;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #f0ded4;
+  color: #7b3b1f;
+  font-size: 0.75rem;
+  font-weight: 750;
+}
+
+.self-link {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-weight: 750;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+.law-list-block {
+  display: grid;
+  gap: 8px;
+  margin: 10px 0 12px;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: grid;
+    grid-template-columns: minmax(96px, auto) minmax(0, 1fr);
+    gap: 14px;
+    align-items: start;
+    scroll-margin-top: 132px;
+  }
+}
+
+.li-nr {
+  position: sticky;
+  top: 126px;
+  align-self: start;
+  color: var(--accent-2);
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.45;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+a.li-nr:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.lid-block {
+  margin: 14px 0;
+  padding: 14px 0 2px;
+  border-top: 1px solid var(--line);
+  scroll-margin-top: 132px;
+
+  &:first-of-type {
+    border-top: 0;
+  }
+}
+
+.legal-ref {
+  margin: 0 0 10px;
+
+  a {
+    display: inline-flex;
+    color: var(--accent-2);
+    font-size: 0.86rem;
+    font-weight: 800;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+}
+
+.ref {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.emphasis {
+  font-style: italic;
+}
+
+.strong {
+  font-weight: 750;
+}

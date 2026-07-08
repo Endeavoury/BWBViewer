@@ -1,0 +1,37 @@
+@media (max-width: 860px) {
+  .app-header {
+    position: static;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar,
+  .toolbar {
+    position: static;
+  }
+
+  .sidebar {
+    max-height: none;
+  }
+
+  .toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .meta-strip {
+    justify-content: flex-start;
+  }
+
+  .law-list-block li {
+    grid-template-columns: 1fr;
+  }
+
+  .li-nr {
+    position: static;
+  }
+}

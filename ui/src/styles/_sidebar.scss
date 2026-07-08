@@ -1,0 +1,73 @@
+.sidebar {
+  position: sticky;
+  top: 98px;
+  align-self: start;
+  display: grid;
+  gap: 16px;
+  max-height: calc(100vh - 112px);
+  overflow: auto;
+}
+
+.panel {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+
+  h2 {
+    margin: 0 0 10px;
+    font-size: 0.9rem;
+  }
+}
+
+.law-list,
+.toc {
+  display: grid;
+  gap: 6px;
+}
+
+.law-item,
+.toc a {
+  display: block;
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  text-decoration: none;
+
+  &:hover {
+    background: var(--surface-2);
+  }
+
+  strong {
+    display: block;
+    font-size: 0.9rem;
+    line-height: 1.25;
+  }
+
+  span {
+    display: block;
+    margin-top: 3px;
+    color: var(--muted);
+    font-size: 0.78rem;
+    line-height: 1.25;
+  }
+}
+
+.law-item {
+  cursor: pointer;
+
+  &.active {
+    border-color: rgba(23, 107, 135, 0.35);
+    background: #e7f2f5;
+  }
+}
+
+.toc a {
+  padding-left: calc(10px + var(--depth, 0) * 12px);
+  font-size: 0.86rem;
+}
