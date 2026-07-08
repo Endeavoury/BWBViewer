@@ -32,6 +32,24 @@ public static class SwaggerDocumentFactory
                     parameters = new[] { new { name = "slug", @in = "path", required = true, schema = new { type = "string" } } },
                     responses = ResponseDescriptions(("200", "XML"), ("404", "Not found"))
                 }
+            },
+            ["/api/wetten/{slug}/metadata"] = new
+            {
+                get = new
+                {
+                    summary = "Get metadata for a Wet",
+                    parameters = SlugParameters(),
+                    responses = ResponseDescriptions(("200", "Metadata"), ("404", "Not found"))
+                }
+            },
+            ["/api/wetten/{slug}/json"] = new
+            {
+                get = new
+                {
+                    summary = "Get parsed JSON for a Wet",
+                    parameters = SlugParameters(),
+                    responses = ResponseDescriptions(("200", "Parsed law"), ("404", "Not found"))
+                }
             }
         }
     };
@@ -42,24 +60,19 @@ public static class SwaggerDocumentFactory
       <head>
         <meta charset="utf-8">
         <title>Wet Viewer API Swagger</title>
-        <style>
-          body { font-family: system-ui, sans-serif; margin: 2rem; color: #1e252b; }
-          a { color: #176b87; }
-          code { background: #f4f4f2; padding: 0.1rem 0.3rem; }
-        </style>
+        <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5/swagger-ui.css">
       </head>
       <body>
-        <h1>Wet Viewer API</h1>
-        <p>OpenAPI JSON: <a href="/swagger/v1/swagger.json">/swagger/v1/swagger.json</a></p>
-        <h2>Endpoints</h2>
-        <ul>
-          <li><code>GET /api/wetten</code></li>
-          <li><code>GET /api/wetten/{slug}/xml</code></li>
-          <li><code>GET /health</code></li>
-        </ul>
+        <div id="swagger-ui"></div>
+        <script src="https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js"></script>
+        <script>
+          window.ui = SwaggerUIBundle({ url: '/swagger/v1/swagger.json', dom_id: '#swagger-ui' });
+        </script>
       </body>
     </html>
     """;
+
+    private static object[] SlugParameters() => [new { name = "slug", @in = "path", required = true, schema = new { type = "string" } }];
 
     private static Dictionary<string, object> ResponseDescriptions(params (string Status, string Description)[] responses)
     {

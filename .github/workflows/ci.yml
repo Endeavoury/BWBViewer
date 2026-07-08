@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: ui/package-lock.json
+
+      - name: Restore backend
+        run: dotnet restore backend/WetViewer.Api.csproj
+
+      - name: Build backend
+        run: dotnet build backend/WetViewer.Api.csproj --configuration Release --no-restore
+
+      - name: Run backend unit tests
+        run: dotnet run --project backend.Tests/WetViewer.Api.Tests.csproj --configuration Release
+
+      - name: Install UI dependencies
+        working-directory: ui
+        run: npm ci
+
+      - name: Build UI
+        working-directory: ui
+        run: npm run build
+
+      - name: Docker build
+        run: docker compose build

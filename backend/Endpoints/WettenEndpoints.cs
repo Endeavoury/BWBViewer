@@ -20,6 +20,22 @@ public static class WettenEndpoints
                 : Results.File(file.Path, "application/xml; charset=utf-8");
         }).WithName("GetWetXml");
 
+        group.MapGet("/{slug}/metadata", (string slug, ILawDataService lawDataService) =>
+        {
+            var metadata = lawDataService.GetMetadata(slug);
+            return metadata is null
+                ? Results.NotFound(new { message = $"Wet '{slug}' was not found in /data." })
+                : Results.Ok(metadata);
+        }).WithName("GetWetMetadata");
+
+        group.MapGet("/{slug}/json", (string slug, ILawDataService lawDataService) =>
+        {
+            var parsedLaw = lawDataService.GetParsedLaw(slug);
+            return parsedLaw is null
+                ? Results.NotFound(new { message = $"Wet '{slug}' was not found in /data." })
+                : Results.Ok(parsedLaw);
+        }).WithName("GetWetJson");
+
         return app;
     }
 }
