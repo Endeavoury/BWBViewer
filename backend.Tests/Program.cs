@@ -3,7 +3,9 @@ using WetViewer.Api.Services;
 var tests = new (string Name, Action Test)[]
 {
     ("BWB slug is detected from filename", BwbSlugIsDetectedFromFilename),
-    ("XML parser extracts article anchors and inline text", XmlParserExtractsArticleAnchorsAndInlineText)
+    ("XML parser extracts article anchors and inline text", XmlParserExtractsArticleAnchorsAndInlineText),
+    ("Article references support article, paragraph, and subparagraph", ArticleReferencesAreParsed),
+    ("XML article filtering selects the requested legal part", XmlArticleFilteringSelectsRequestedPart)
 };
 
 var failures = new List<string>();
@@ -69,6 +71,49 @@ static void XmlParserExtractsArticleAnchorsAndInlineText()
         var al = lid.Children.Single(node => node.LocalName == "al");
         AssertTrue(al.Children.Any(node => node.LocalName == "#text" && node.Text.Contains("Voor")), "Inline leading text should be preserved.");
         AssertTrue(al.Children.Any(node => node.LocalName == "nadruk" && node.Text == "test"), "Inline emphasis should be preserved.");
+    }
+    finally
+    {
+        File.Delete(tempFile);
+    }
+}
+
+static void ArticleReferencesAreParsed()
+{
+    AssertReference("47", "47", null, null);
+    AssertReference("47.1", "47", "1", null);
+    AssertReference("47.1a", "47", "1", "a");
+    AssertTrue(!ArticleReference.TryParse("47.a", out _), "Malformed references should be rejected.");
+}
+
+static void AssertReference(string value, string article, string? paragraph, string? subparagraph)
+{
+    AssertTrue(ArticleReference.TryParse(value, out var reference), $"'{value}' should be accepted.");
+    AssertEqual(article, reference!.Article);
+    AssertEqual(paragraph, reference.Paragraph);
+    AssertEqual(subparagraph, reference.Subparagraph);
+}
+
+static void XmlArticleFilteringSelectsRequestedPart()
+{
+    var tempFile = Path.Combine(Path.GetTempPath(), $"wet-filter-{Guid.NewGuid():N}.xml");
+    File.WriteAllText(tempFile, """
+    <toestand bwb-id="BWBR0099999"><wetgeving soort="wet"><citeertitel>Testwet</citeertitel><wettekst>
+      <artikel><kop><label>Artikel</label><nr>47</nr></kop>
+        <lid><lidnr>1</lidnr><lijst><li><li.nr>a.</li.nr><al>Eerste.</al></li><li><li.nr>b.</li.nr><al>Tweede.</al></li></lijst></lid>
+        <lid><lidnr>2</lidnr><al>Ander lid.</al></lid>
+      </artikel>
+    </wettekst></wetgeving></toestand>
+    """);
+
+    try
+    {
+        var filtered = LawArticleFilter.Load(tempFile, new ArticleReference("47", "1", "a"));
+        AssertTrue(filtered is not null, "Requested subparagraph should be found.");
+        AssertEqual(1, filtered!.Descendants("lid").Count());
+        AssertEqual("1", filtered.Descendants("lidnr").Single().Value);
+        AssertEqual(1, filtered.Descendants("li").Count());
+        AssertEqual("a.", filtered.Descendants("li.nr").Single().Value);
     }
     finally
     {

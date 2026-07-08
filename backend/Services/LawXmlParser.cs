@@ -12,6 +12,11 @@ public static partial class LawXmlParser
         using var stream = File.OpenRead(xmlPath);
         using var reader = XmlReader.Create(stream, new XmlReaderSettings { DtdProcessing = DtdProcessing.Ignore });
         var doc = XDocument.Load(reader, LoadOptions.PreserveWhitespace);
+        return Parse(doc, summary);
+    }
+
+    public static ParsedLawDocument Parse(XDocument doc, LawSummary summary)
+    {
         var root = doc.Root;
         var wetgeving = doc.Descendants("wetgeving").FirstOrDefault();
         var shortTitle = DirectText(doc.Descendants("citeertitel").FirstOrDefault())

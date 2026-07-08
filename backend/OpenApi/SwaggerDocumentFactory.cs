@@ -28,9 +28,9 @@ public static class SwaggerDocumentFactory
             {
                 get = new
                 {
-                    summary = "Get raw XML for a Wet",
-                    parameters = new[] { new { name = "slug", @in = "path", required = true, schema = new { type = "string" } } },
-                    responses = ResponseDescriptions(("200", "XML"), ("404", "Not found"))
+                    summary = "Get XML for a Wet, optionally filtered by article reference",
+                    parameters = LawContentParameters(),
+                    responses = ResponseDescriptions(("200", "XML"), ("400", "Invalid article reference"), ("404", "Not found"))
                 }
             },
             ["/api/wetten/{slug}/metadata"] = new
@@ -46,9 +46,9 @@ public static class SwaggerDocumentFactory
             {
                 get = new
                 {
-                    summary = "Get parsed JSON for a Wet",
-                    parameters = SlugParameters(),
-                    responses = ResponseDescriptions(("200", "Parsed law"), ("404", "Not found"))
+                    summary = "Get parsed JSON for a Wet, optionally filtered by article reference",
+                    parameters = LawContentParameters(),
+                    responses = ResponseDescriptions(("200", "Parsed law"), ("400", "Invalid article reference"), ("404", "Not found"))
                 }
             }
         }
@@ -73,6 +73,12 @@ public static class SwaggerDocumentFactory
     """;
 
     private static object[] SlugParameters() => [new { name = "slug", @in = "path", required = true, schema = new { type = "string" } }];
+
+    private static object[] LawContentParameters() =>
+    [
+        new { name = "slug", @in = "path", required = true, schema = new { type = "string" } },
+        new { name = "artikel", @in = "query", required = false, description = "Examples: 47, 47.1, 47.1a", schema = new { type = "string", pattern = @"^\d+[a-z]?(\.\d+[a-z]?)?$" } }
+    ];
 
     private static Dictionary<string, object> ResponseDescriptions(params (string Status, string Description)[] responses)
     {
