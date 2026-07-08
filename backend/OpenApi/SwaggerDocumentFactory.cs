@@ -5,50 +5,68 @@ public static class SwaggerDocumentFactory
     public static object Create() => new
     {
         openapi = "3.0.1",
-        info = new { title = "Wet Viewer API", version = "v1" },
+        info = new
+        {
+            title = "BWB Viewer API",
+            version = "v1",
+            description = "API voor het opvragen van Nederlandse wetten uit de gekoppelde /data-map."
+        },
         paths = new Dictionary<string, object>
         {
             ["/health"] = new
             {
                 get = new
                 {
-                    summary = "Health check",
-                    responses = ResponseDescriptions(("200", "OK"))
+                    summary = "Controleer de beschikbaarheid van de API",
+                    description = "Geeft aan of de backend actief en bereikbaar is.",
+                    responses = ResponseDescriptions(("200", "De API is beschikbaar."))
                 }
             },
             ["/api/wetten"] = new
             {
                 get = new
                 {
-                    summary = "List wetten from /data",
-                    responses = ResponseDescriptions(("200", "Laws"))
+                    summary = "Haal alle wetten op",
+                    description = "Geeft een overzicht van alle XML-wetten in de gekoppelde /data-map.",
+                    responses = ResponseDescriptions(("200", "Overzicht van beschikbare wetten."))
                 }
             },
             ["/api/wetten/{slug}/xml"] = new
             {
                 get = new
                 {
-                    summary = "Get XML for a Wet, optionally filtered by article reference",
+                    summary = "Haal een wet op als XML",
+                    description = "Geeft de oorspronkelijke XML terug. Gebruik de optionele parameter artikel om alleen een artikel, lid of sublid op te halen.",
                     parameters = LawContentParameters(),
-                    responses = ResponseDescriptions(("200", "XML"), ("400", "Invalid article reference"), ("404", "Not found"))
+                    responses = ResponseDescriptions(
+                        ("200", "De wet of het geselecteerde onderdeel als XML."),
+                        ("400", "De artikelverwijzing heeft een ongeldig formaat."),
+                        ("404", "De wet of het gevraagde onderdeel is niet gevonden."))
                 }
             },
             ["/api/wetten/{slug}/metadata"] = new
             {
                 get = new
                 {
-                    summary = "Get metadata for a Wet",
+                    summary = "Haal metadata van een wet op",
+                    description = "Geeft beknopte informatie over de wet, zoals titel, BWB-nummer en ingangsdatum.",
                     parameters = SlugParameters(),
-                    responses = ResponseDescriptions(("200", "Metadata"), ("404", "Not found"))
+                    responses = ResponseDescriptions(
+                        ("200", "Metadata van de wet."),
+                        ("404", "De wet is niet gevonden."))
                 }
             },
             ["/api/wetten/{slug}/json"] = new
             {
                 get = new
                 {
-                    summary = "Get parsed JSON for a Wet, optionally filtered by article reference",
+                    summary = "Haal een wet op als JSON",
+                    description = "Geeft de geparseerde structuur van de wet terug. Gebruik de optionele parameter artikel om alleen een artikel, lid of sublid op te halen.",
                     parameters = LawContentParameters(),
-                    responses = ResponseDescriptions(("200", "Parsed law"), ("400", "Invalid article reference"), ("404", "Not found"))
+                    responses = ResponseDescriptions(
+                        ("200", "De geparseerde wet of het geselecteerde onderdeel als JSON."),
+                        ("400", "De artikelverwijzing heeft een ongeldig formaat."),
+                        ("404", "De wet of het gevraagde onderdeel is niet gevonden."))
                 }
             }
         }
@@ -59,7 +77,7 @@ public static class SwaggerDocumentFactory
     <html>
       <head>
         <meta charset="utf-8">
-        <title>Wet Viewer API Swagger</title>
+        <title>BWB Viewer API-documentatie</title>
         <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5/swagger-ui.css">
       </head>
       <body>
@@ -72,12 +90,39 @@ public static class SwaggerDocumentFactory
     </html>
     """;
 
-    private static object[] SlugParameters() => [new { name = "slug", @in = "path", required = true, schema = new { type = "string" } }];
+    private static object[] SlugParameters() =>
+    [
+        new
+        {
+            name = "slug",
+            @in = "path",
+            required = true,
+            description = "Het BWB-nummer van de wet, bijvoorbeeld BWBR0039896.",
+            schema = new { type = "string" },
+            example = "BWBR0039896"
+        }
+    ];
 
     private static object[] LawContentParameters() =>
     [
-        new { name = "slug", @in = "path", required = true, schema = new { type = "string" } },
-        new { name = "artikel", @in = "query", required = false, description = "Examples: 47, 47.1, 47.1a", schema = new { type = "string", pattern = @"^\d+[a-z]?(\.\d+[a-z]?)?$" } }
+        new
+        {
+            name = "slug",
+            @in = "path",
+            required = true,
+            description = "Het BWB-nummer van de wet, bijvoorbeeld BWBR0039896.",
+            schema = new { type = "string" },
+            example = "BWBR0039896"
+        },
+        new
+        {
+            name = "artikel",
+            @in = "query",
+            required = false,
+            description = "Optionele artikelverwijzing. Gebruik 47 voor een artikel, 47.1 voor een lid of 47.1a voor een sublid.",
+            schema = new { type = "string", pattern = @"^\d+[a-z]?(\.\d+[a-z]?)?$" },
+            example = "47.1"
+        }
     ];
 
     private static Dictionary<string, object> ResponseDescriptions(params (string Status, string Description)[] responses)
