@@ -119,7 +119,7 @@ public static class SwaggerDocumentFactory
             name = "artikel",
             @in = "query",
             required = false,
-            description = "Optionele artikelverwijzing. Gebruik 47 voor een artikel, 47.1 voor een lid of 47.1a voor een sublid.",
+            description = "Optionele artikelverwijzing. Gebruik bijvoorbeeld 47 voor een artikel of 47.1 voor een lid.",
             schema = new { type = "string", pattern = @"^\d+[a-z]?(\.\d+[a-z]?)?$" },
             example = "47.1"
         }
