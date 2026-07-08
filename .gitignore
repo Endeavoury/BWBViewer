@@ -25,3 +25,7 @@ build/
 
 # Local law XML data
 data/
+
+# .NET build output
+bin/
+obj/
