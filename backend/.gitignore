@@ -1,0 +1,35 @@
+# Build output
+bin/
+obj/
+out/
+publish/
+TestResults/
+
+# User/local IDE state
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Logs and local config
+*.log
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
+!.env.example
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+coverage.cobertura.xml

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><toestand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" bwb-ng-vast-deel="http://wetten.overheid.nl/id/BWBR0044304/2020-11-06/0" xsi:noNamespaceSchemaLocation="https://repository.officiele-overheidspublicaties.nl/Schema/BWB-toestand/2016-1/xsd/toestand_2016-1.xsd" bwb-id="BWBR0044304" inwerkingtreding="2020-11-06"><bwb-inputbestand/><bwb-wijzigingen/><redactionele-correcties/><wetgeving dtdversie="2.0" soort="ministeriele-regeling" stam-id="15688443" versie-id="27181262" id="C38411411" label-id="15627574" inwerkingtredingsdatum="2020-11-06">
+  <intitule bwb-ng-variabel-deel="/Intitule" stam-id="15688473" versie-id="27181102" id="C38411251" label-id="15627414" inwerking="2020-11-06" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">Regeling van de Minister van Binnenlandse Zaken en Koninkrijksrelaties en de Minister van Defensie van 3 november 2020, nr. 2020-0000611095, houdende nadere regels met betrekking tot enkele aspecten van de werkwijze inzake de verdere verwerking van bulkdatasets verworven door de AIVD en MIVD op grond van de Wiv 2017 (Tijdelijke regeling verdere verwerking bulkdatasets Wiv 2017)<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata></meta-data></intitule>
+  <citeertitel bwb-ng-variabel-deel="/Citeertitel" status="officieel" stam-id="15688483" versie-id="27181112" id="C38411261" label-id="15627424" inwerking="2020-11-06" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05">Tijdelijke regeling verdere verwerking bulkdatasets Wiv 2017<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata></meta-data></citeertitel>
+  <regeling>
+    <aanhef bwb-ng-variabel-deel="/Aanhef" stam-id="15688493" versie-id="27181122" id="C38411271" label-id="15627434" inwerking="2020-11-06" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <wie>De Minister van Binnenlandse Zaken en Koninkrijksrelaties en de Minister van Defensie,</wie>
+  <considerans>
+    <considerans.al bevat="grondslag">Gelet op <extref doc="jci1.3:c:BWBR0039896&amp;artikel=16" label-id="14094634" verwijzing-id="3031242" bwb-id="BWBR0039896">artikel 16 van de Wet op de inlichtingen- en veiligheidsdiensten 2017</extref>;</considerans.al>
+  </considerans>
+  <afkondiging>
+    <al>Besluiten:</al>
+  </afkondiging>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata></meta-data></aanhef>
+    <regeling-tekst>
+      <artikel bwb-ng-variabel-deel="/Artikel1" stam-id="15688503" versie-id="27181132" id="C38411281" label-id="15627444" inwerking="2020-11-06" label="Artikel 1" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">1</nr>
+    <titel status="officieel">Definities</titel>
+  </kop>
+  <al>In deze regeling wordt verstaan onder:</al>
+  <lijst level="single" nr-sluiting="." start="1" type="expliciet">
+    <li bwb-ng-variabel-deel="/Artikel1/Onderdeela">
+      <li.nr>a.</li.nr>
+      <al>
+        <nadruk type="cur">bulkdataset:</nadruk> een omvangrijke gegevensverzameling waarbij het merendeel van de gegevens betrekking heeft op organisaties en/of personen die geen onderwerp van onderzoek zijn van een dienst en dat ook niet worden;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1&amp;o=a&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=a"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel1/Onderdeelb">
+      <li.nr>b.</li.nr>
+      <al>
+        <nadruk type="cur">AIVD:</nadruk> Algemene Inlichtingen- en Veiligheidsdienst;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1&amp;o=b&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=b"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel1/Onderdeelc">
+      <li.nr>c.</li.nr>
+      <al>
+        <nadruk type="cur">MIVD:</nadruk> Militaire Inlichtingen- en Veiligheidsdienst;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1&amp;o=c&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=c"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel1/Onderdeeld">
+      <li.nr>d.</li.nr>
+      <al>
+        <nadruk type="cur">bijzondere bevoegdheid:</nadruk> een bevoegdheid als bedoeld in <extref doc="jci1.3:c:BWBR0039896&amp;sub-paragraaf=3.2.5" label-id="14095284" verwijzing-id="3031254" bwb-id="BWBR0039896">paragraaf 3.2.5 van de wet</extref>;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1&amp;o=d&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=d"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel1/Onderdeele">
+      <li.nr>e.</li.nr>
+      <al>
+        <nadruk type="cur">team:</nadruk> een team of afdeling waaraan een teamhoofd van de AIVD onderscheidenlijk een teamleider dan wel bureauhoofd van de MIVD leiding geeft;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1&amp;o=e&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=e"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel1/Onderdeelf">
+      <li.nr>f.</li.nr>
+      <al>
+        <nadruk type="cur">unithoofd:</nadruk> een leidinggevende bij de AIVD ressorterend onder een directeur met uitzondering van het Nationaal Bureau Verbindingsbeveiliging, de Centrale Staf en de Chief Information Officer;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1&amp;o=f&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=f"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel1/Onderdeelg">
+      <li.nr>g.</li.nr>
+      <al>
+        <nadruk type="cur">afdelingshoofd:</nadruk> een leidinggevende bij de MIVD ressorterend onder het hoofd van de dienst;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1&amp;o=g&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=g"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel1/Onderdeelh">
+      <li.nr>h.</li.nr>
+      <al>
+        <nadruk type="cur">teamhoofd:</nadruk> een leidinggevende bij de AIVD ressorterend onder een unithoofd;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1&amp;o=h&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=h"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel1/Onderdeeli">
+      <li.nr>i.</li.nr>
+      <al>
+        <nadruk type="cur">teamleider dan wel bureauhoofd:</nadruk> een leidinggevende bij de MIVD ressorterend onder een afdelingshoofd.</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1&amp;o=i&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=i"/></jcis></meta-data></li>
+  </lijst>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=1&amp;g=2020-11-06" onderdeel="artikel=1" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=1"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=1" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=1"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel2" stam-id="15688513" versie-id="27181142" id="C38411291" label-id="15627454" inwerking="2020-11-06" label="Artikel 2" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">2</nr>
+    <titel status="officieel">Toepassingsbereik regeling</titel>
+  </kop>
+  <al>Deze regeling is van toepassing op de verdere verwerking van door de diensten verworven bulkdatasets met uitzondering van de gegevens verworven onder toepassing van de bevoegdheid als bedoeld in <extref doc="jci1.3:c:BWBR0039896&amp;artikel=48" label-id="14095114" verwijzing-id="3031243" bwb-id="BWBR0039896">artikel 48 van de wet</extref>.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=2&amp;g=2020-11-06" onderdeel="artikel=2" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=2"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=2&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=2" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=2"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel3" stam-id="15688523" versie-id="27181152" id="C38411301" label-id="15627464" inwerking="2020-11-06" label="Artikel 3" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">3</nr>
+    <titel status="officieel">Beoordeling bulkdatasets en vaststelling toepasselijk toegangsregime</titel>
+  </kop>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid1" label-id="15627464L1">
+    <lidnr status="officieel">1</lidnr>
+    <al>De dienst beoordeelt in welke mate de verdere verwerking van een bulkdataset een beperking oplevert van het recht op bescherming van de persoonlijke levenssfeer.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=1&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="lid=1"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid2" label-id="15627464L2">
+    <lidnr status="officieel">2</lidnr>
+    <al>Bij de beoordeling als bedoeld in het eerste lid worden in ieder geval de volgende criteria betrokken:</al>
+    <lijst level="single" nr-sluiting="." start="1" type="expliciet">
+      <li bwb-ng-variabel-deel="/Artikel3/Lid2/Onderdeela">
+        <li.nr>a.</li.nr>
+        <al>de mate waarin een bulkdataset inzicht geeft in bepaalde aspecten van het privéleven, waaronder identificerende gegevens, locaties, netwerk en vertrouwelijke inhoudelijke gegevens;</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=2&amp;o=a&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=a"/></jcis></meta-data></li>
+      <li bwb-ng-variabel-deel="/Artikel3/Lid2/Onderdeelb">
+        <li.nr>b.</li.nr>
+        <al>de mate waarin een bulkdataset voor een ieder toegankelijk is.</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=2&amp;o=b&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=b"/></jcis></meta-data></li>
+    </lijst>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=2&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="lid=2"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid3" label-id="15627464L3">
+    <lidnr status="officieel">3</lidnr>
+    <al>Aan de hand van de beoordeling aan de criteria als bedoeld in het tweede lid, wordt door de minister vastgesteld of de verdere verwerking van een bulkdataset onderworpen wordt aan een:</al>
+    <lijst level="single" nr-sluiting="." start="1" type="expliciet">
+      <li bwb-ng-variabel-deel="/Artikel3/Lid3/Onderdeela">
+        <li.nr>a.</li.nr>
+        <al>standaard toegangsregime;</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=3&amp;o=a&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=a"/></jcis></meta-data></li>
+      <li bwb-ng-variabel-deel="/Artikel3/Lid3/Onderdeelb">
+        <li.nr>b.</li.nr>
+        <al>beperkt toegangsregime; of</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=3&amp;o=b&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=b"/></jcis></meta-data></li>
+      <li bwb-ng-variabel-deel="/Artikel3/Lid3/Onderdeelc">
+        <li.nr>c.</li.nr>
+        <al>strikt beperkt toegangsregime.</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=3&amp;o=c&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=c"/></jcis></meta-data></li>
+    </lijst>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=3&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="lid=3"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid4" label-id="15627464L4">
+    <lidnr status="officieel">4</lidnr>
+    <al>Een bulkdataset wordt uitsluitend verder verwerkt overeenkomstig het door de minister vastgestelde toegangsregime. Ten behoeve van de vaststelling van het toe te passen toegangsregime met betrekking tot de bulkdataset dient het hoofd van de dienst een voorstel in, waarbij de beoordeling als bedoeld in het eerste lid wordt verantwoord. De commissie van toezicht wordt terstond op de hoogte gesteld van de vaststelling van het voor de desbetreffende bulkdataset toepasselijke toegangsregime.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=4&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="lid=4"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid5" label-id="15627464L5">
+    <lidnr status="officieel">5</lidnr>
+    <al>Het hoofd van de dienst draagt er zorg voor dat indien omstandigheden daartoe aanleiding geven, er een herbeoordeling plaatsvindt van een bulkdataset. Indien de herbeoordeling leidt tot de vaststelling dat op de verdere verwerking van de bulkdataset een ander toegangsregime van toepassing dient te zijn dan het op dat moment toegepaste regime, wordt een daartoe strekkend voorstel ter vaststelling aan de voor de dienst verantwoordelijke minister voorgelegd. Het eerste tot en met vierde lid is van overeenkomstige toepassing.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=5&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="lid=5"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid6" label-id="15627464L6">
+    <lidnr status="officieel">6</lidnr>
+    <al>Indien de vaststelling als bedoeld in het vijfde lid wordt geweigerd, blijft op de bulkdataset het geldende toegangsregime van toepassing. De commissie van toezicht wordt terstond van de beslissing van de minister op de hoogte gesteld.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;lid=6&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="lid=6"/></jcis></meta-data></lid>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=3&amp;g=2020-11-06" onderdeel="artikel=3" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=3"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=3" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=3"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel4" stam-id="15688533" versie-id="27181162" id="C38411311" label-id="15627474" inwerking="2020-11-06" label="Artikel 4" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">4</nr>
+    <titel status="officieel">Bevraging bulkdatasets</titel>
+  </kop>
+  <lid bwb-ng-variabel-deel="/Artikel4/Lid1" label-id="15627474L1">
+    <lidnr status="officieel">1</lidnr>
+    <al>Een binnen de dienst of ingevolge <extref doc="jci1.3:c:BWBR0039896&amp;artikel=91" label-id="14095824" verwijzing-id="3031244" bwb-id="BWBR0039896">artikel 91 van de wet</extref> ten behoeve van de AIVD werkzame ambtenaar onderscheidenlijk ingevolge <extref doc="jci1.3:c:BWBR0039896&amp;artikel=92" label-id="14095834" verwijzing-id="3031245" bwb-id="BWBR0039896">artikel 92</extref> ten behoeve van de MIVD werkzame ambtenaar, is, voor zover dat noodzakelijk is voor een goede uitvoering van de aan de desbetreffende ambtenaar opgedragen taak, bevoegd tot het bevragen van de bij de desbetreffende dienst aanwezige bulkdatasets.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=4&amp;lid=1&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="lid=1"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel4/Lid2" label-id="15627474L2">
+    <lidnr status="officieel">2</lidnr>
+    <al>De verkrijging van de aan de bevraging gerelateerde gegevens geschiedt met inachtneming van het bepaalde in <intref doc="jci1.3:c:BWBR0044304&amp;artikel=5&amp;z=2020-11-06&amp;g=2020-11-06" label-id="15627484" verwijzing-id="3031250" bwb-id="BWBR0044304" bwb-ng-variabel-deel="/Artikel5">artikel 5</intref>, <intref doc="jci1.3:c:BWBR0044304&amp;artikel=6&amp;z=2020-11-06&amp;g=2020-11-06" label-id="15627494" verwijzing-id="3031251" bwb-id="BWBR0044304" bwb-ng-variabel-deel="/Artikel6">6</intref> en <intref doc="jci1.3:c:BWBR0044304&amp;artikel=7&amp;z=2020-11-06&amp;g=2020-11-06" label-id="15627504" verwijzing-id="3031252" bwb-id="BWBR0044304" bwb-ng-variabel-deel="/Artikel7">7</intref>.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=4&amp;lid=2&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="lid=2"/></jcis></meta-data></lid>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=4&amp;g=2020-11-06" onderdeel="artikel=4" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=4"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=4&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=4" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=4"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel5" stam-id="15688543" versie-id="27181172" id="C38411321" label-id="15627484" inwerking="2020-11-06" label="Artikel 5" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">5</nr>
+    <titel status="officieel">Standaard toegangsregime</titel>
+  </kop>
+  <al>De verkrijging van in bulkdatasets met een standaard toegangsregime opgenomen gegevens is uitsluitend toegestaan door een binnen de dienst of ingevolge <extref doc="jci1.3:c:BWBR0039896&amp;artikel=91" label-id="14095824" verwijzing-id="3031246" bwb-id="BWBR0039896">artikel 91 van de wet</extref> ten behoeve van de AIVD werkzame ambtenaar onderscheidenlijk ingevolge <extref doc="jci1.3:c:BWBR0039896&amp;artikel=92" label-id="14095834" verwijzing-id="3031247" bwb-id="BWBR0039896">artikel 92</extref> ten behoeve van de MIVD werkzame ambtenaar, voor zover dat noodzakelijk is voor een goede uitvoering van de aan de desbetreffende ambtenaar opgedragen taak.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=5&amp;g=2020-11-06" onderdeel="artikel=5" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=5"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=5&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=5" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=5"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel6" stam-id="15688553" versie-id="27181182" id="C38411331" label-id="15627494" inwerking="2020-11-06" label="Artikel 6" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">6</nr>
+    <titel status="officieel">Beperkt toegangsregime</titel>
+  </kop>
+  <al>De verkrijging van in bulkdatasets met een beperkt toegangsregime opgenomen gegevens is uitsluitend toegestaan door:</al>
+  <lijst level="single" nr-sluiting="." start="1" type="expliciet">
+    <li bwb-ng-variabel-deel="/Artikel6/Onderdeela">
+      <li.nr>a.</li.nr>
+      <al>daartoe door het hoofd van de dienst aangewezen functiegroepen;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=6&amp;o=a&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=a"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel6/Onderdeelb">
+      <li.nr>b.</li.nr>
+      <al>een daartoe door het hoofd van de dienst aangewezen team op een daartoe strekkend verzoek van het unithoofd onderscheidenlijk het afdelingshoofd en na advies van de betrokken afdeling Juridische Zaken. Het verzoek bevat de reden waarom de verkrijging van de in de desbetreffende bulkdataset opgenomen gegevens door het desbetreffende team noodzakelijk is. Een toestemming wordt verleend voor de duur van ten hoogste 12 maanden en kan telkens op een daartoe strekkend verzoek voor eenzelfde periode worden verlengd.</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=6&amp;o=b&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=b"/></jcis></meta-data></li>
+  </lijst>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=6&amp;g=2020-11-06" onderdeel="artikel=6" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=6"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=6&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=6" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=6"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel7" stam-id="15688563" versie-id="27181192" id="C38411341" label-id="15627504" inwerking="2020-11-06" label="Artikel 7" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">7</nr>
+    <titel status="officieel">Strikt beperkt toegangsregime</titel>
+  </kop>
+  <lid bwb-ng-variabel-deel="/Artikel7/Lid1" label-id="15627504L1">
+    <lidnr status="officieel">1</lidnr>
+    <al>De verkrijging in bulkdatasets met een strikt beperkt toegangsregime opgenomen gegevens is uitsluitend toegestaan door:</al>
+    <lijst level="single" nr-sluiting="." start="1" type="expliciet">
+      <li bwb-ng-variabel-deel="/Artikel7/Lid1/Onderdeela">
+        <li.nr>a.</li.nr>
+        <al>daartoe door het hoofd van de dienst aangewezen functiegroepen;</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=7&amp;lid=1&amp;o=a&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=a"/></jcis></meta-data></li>
+      <li bwb-ng-variabel-deel="/Artikel7/Lid1/Onderdeelb">
+        <li.nr>b.</li.nr>
+        <al>een daartoe door het hoofd van de dienst aangewezen team op een daartoe strekkend verzoek van het unithoofd onderscheidenlijk het afdelingshoofd en na advies van de betrokken afdeling Juridische Zaken. Het verzoek bevat de reden waarom verkrijging van de in de bulkdataset opgenomen gegevens door het desbetreffende team noodzakelijk is. Een toestemming wordt verleend voor de duur van ten hoogste 12 maanden en kan telkens op een daartoe strekkend verzoek voor eenzelfde periode worden verlengd.</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=7&amp;lid=1&amp;o=b&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=b"/></jcis></meta-data></li>
+    </lijst>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=7&amp;lid=1&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="lid=1"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel7/Lid2" label-id="15627504L2">
+    <lidnr status="officieel">2</lidnr>
+    <al>De verkrijging van de gegevens door een ingevolge het eerste lid, onder b, aangewezen team, vindt slechts plaats op basis van kenmerken gerelateerd aan het desbetreffende onderzoek die door het teamhoofd onderscheidenlijk de teamleider dan wel het bureauhoofd zijn vastgesteld. Kenmerken worden voorzien van een toereikende motivering in relatie tot het onderzoek waarvoor ze dienen te worden toegepast.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=7&amp;lid=2&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="lid=2"/></jcis></meta-data></lid>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=7&amp;g=2020-11-06" onderdeel="artikel=7" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=7"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=7&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=7" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=7"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel8" stam-id="15688573" versie-id="27181202" id="C38411351" label-id="15627514" inwerking="2020-11-06" label="Artikel 8" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">8</nr>
+    <titel status="officieel">Periodieke beoordeling noodzaak tot verwijdering bulkdatasets</titel>
+  </kop>
+  <al>Onverminderd het bepaalde in <extref doc="jci1.3:c:BWBR0039896&amp;artikel=20" label-id="14094694" verwijzing-id="3031248" bwb-id="BWBR0039896">artikel 20, eerste lid, van de wet</extref>, wordt door het hoofd van de dienst, nadat de set betekenis heeft gekregen in de zin van artikel 20 van de wet, periodiek beoordeeld of de desbetreffende bulkdataset dient te worden verwijderd. Deze beoordeling vindt plaats:</al>
+  <lijst level="single" nr-sluiting="." start="1" type="expliciet">
+    <li bwb-ng-variabel-deel="/Artikel8/Onderdeela">
+      <li.nr>a.</li.nr>
+      <al>ten aanzien van een bulkdataset met een standaard toegangsregime na ten hoogste 36 maanden;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=8&amp;o=a&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=a"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel8/Onderdeelb">
+      <li.nr>b.</li.nr>
+      <al>ten aanzien van een bulkdataset met een beperkt toegangsregime na ten hoogste 24 maanden;</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=8&amp;o=b&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=b"/></jcis></meta-data></li>
+    <li bwb-ng-variabel-deel="/Artikel8/Onderdeelc">
+      <li.nr>c.</li.nr>
+      <al>ten aanzien van een bulkdataset met een strikt beperkt toegangsregime na ten hoogste 12 maanden.</al>
+    <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=8&amp;o=c&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="o=c"/></jcis></meta-data></li>
+  </lijst>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=8&amp;g=2020-11-06" onderdeel="artikel=8" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=8"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=8&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=8" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=8"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel9" stam-id="15688583" versie-id="27181212" id="C38411361" label-id="15627524" inwerking="2020-11-06" label="Artikel 9" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">9</nr>
+    <titel status="officieel">Overgangsbepaling</titel>
+  </kop>
+  <al>Voor de toepassing van het bepaalde in <intref doc="jci1.3:c:BWBR0044304&amp;artikel=8&amp;z=2020-11-06&amp;g=2020-11-06" label-id="15627514" verwijzing-id="3031253" bwb-id="BWBR0044304" bwb-ng-variabel-deel="/Artikel8">artikel 8</intref> wordt, waar het reeds bij de diensten aanwezige bulkdatasets betreft, de datum van inwerkingtreding van deze regeling aangemerkt als de datum waarop voor deze bulkdatasets is vastgesteld dat deze betekenis hebben als bedoeld in <extref doc="jci1.3:c:BWBR0039896&amp;artikel=20" label-id="14094694" verwijzing-id="3031249" bwb-id="BWBR0039896">artikel 20 van de wet</extref>.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=9&amp;g=2020-11-06" onderdeel="artikel=9" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=9"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=9&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=9" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=9"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel10" stam-id="15688593" versie-id="27181222" id="C38411371" label-id="15627534" inwerking="2020-11-06" label="Artikel 10" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">10</nr>
+    <titel status="officieel">Verstrekking bulkdatasets</titel>
+  </kop>
+  <al>Een verstrekking van een bulkdataset aan een inlichtingen- of veiligheidsdienst van een ander land vindt niet eerder plaats dan nadat de voor de dienst verantwoordelijke Minister op een daartoe strekkend verzoek van het hoofd van de dienst toestemming heeft verleend. De commissie van toezicht wordt terstond op de hoogte gesteld van een verleende toestemming.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=10&amp;g=2020-11-06" onderdeel="artikel=10" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=10"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=10&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=10" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=10"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel11" stam-id="15688603" versie-id="27181232" id="C38411381" label-id="15627544" inwerking="2020-11-06" label="Artikel 11" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">11</nr>
+    <titel status="officieel">Inwerkingtreding</titel>
+  </kop>
+  <al>Deze regeling treedt in werking met ingang van de dag na de datum van uitgifte van de Staatscourant waarin zij wordt geplaatst.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=11&amp;g=2020-11-06" onderdeel="artikel=11" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=11"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=11&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=11" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=11"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel12" stam-id="15688613" versie-id="27181242" id="C38411391" label-id="15627554" inwerking="2020-11-06" label="Artikel 12" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">12</nr>
+    <titel status="officieel">Citeertitel</titel>
+  </kop>
+  <al>Deze regeling wordt aangehaald als: Tijdelijke regeling verdere verwerking bulkdatasets Wiv 2017.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;artikel=12&amp;g=2020-11-06" onderdeel="artikel=12" korte-verwijzing="1.0:c:BWBR0044304&amp;artikel=12"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;artikel=12&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="artikel=12" korte-verwijzing="jci1.3:c:BWBR0044304&amp;artikel=12"/></jcis></meta-data></artikel>
+    </regeling-tekst>
+    <regeling-sluiting bwb-ng-variabel-deel="/SlotformulierEnOndertekening" stam-id="15688623" versie-id="27181252" id="C38411401" label-id="15627564" inwerking="2020-11-06" bron="Stcrt.2020-56482" effect="nieuwe-regeling" ondertekening_bron="2020-11-03" publicatie_bron="2020-11-05" publicatie_iwt="2020-11-05" status="goed">
+  <slotformulering>
+    <al>Deze regeling wordt met toelichting in de Staatscourant geplaatst.</al>
+  </slotformulering>
+  <ondertekening>
+    <functie>De Minister van Binnenlandse Zaken en Koninkrijksrelaties,</functie>
+    <naam>
+      <voornaam>K.H.</voornaam>
+      <achternaam>Ollongren</achternaam>
+    </naam>
+  </ondertekening>
+  <ondertekening>
+    <functie>De Minister van Defensie,</functie>
+    <naam>
+      <voornaam>A.Th.B.</voornaam>
+      <achternaam>Bijleveld-Schouten</achternaam>
+    </naam>
+  </ondertekening>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata></meta-data></regeling-sluiting>
+  </regeling>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2020-56482"><publicatiejaar>2020</publicatiejaar><publicatienr>56482</publicatienr><uitgiftedatum isodatum="2020-11-05">05-11-2020</uitgiftedatum><ondertekeningsdatum isodatum="2020-11-03">03-11-2020</ondertekeningsdatum><kenmerk>2020-0000611095</kenmerk></publicatie><inwerkingtreding.datum isodatum="2020-11-06">06-11-2020</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0044304&amp;g=2020-11-06" onderdeel="wetgeving" korte-verwijzing="1.0:c:BWBR0044304"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0044304&amp;z=2020-11-06&amp;g=2020-11-06" onderdeel="wetgeving" korte-verwijzing="jci1.3:c:BWBR0044304"/></jcis></meta-data></wetgeving></toestand>

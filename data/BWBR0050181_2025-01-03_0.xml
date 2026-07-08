@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><toestand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" bwb-ng-vast-deel="http://wetten.overheid.nl/id/BWBR0050181/2025-01-03/0" xsi:noNamespaceSchemaLocation="https://repository.officiele-overheidspublicaties.nl/Schema/BWB-toestand/2016-1/xsd/toestand_2016-1.xsd" bwb-id="BWBR0050181" inwerkingtreding="2025-01-03"><bwb-inputbestand/><bwb-wijzigingen/><redactionele-correcties/><wetgeving dtdversie="2.0" soort="ministeriele-regeling" stam-id="17212093" versie-id="30313362" id="C43486081" label-id="17117944" inwerkingtredingsdatum="2024-09-03">
+  <intitule bwb-ng-variabel-deel="/Intitule" stam-id="17212123" versie-id="30313252" id="C43485971" label-id="17117834" inwerking="2024-09-03" bron="Stcrt.2024-27038" effect="nieuwe-regeling" publicatie_bron="2024-09-02" publicatie_iwt="2024-09-02" status="goed">Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken AIVD 2024<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata></meta-data></intitule>
+  <citeertitel bwb-ng-variabel-deel="/Citeertitel" status="officieel" stam-id="17212133" versie-id="30313262" id="C43485981" label-id="17117844" inwerking="2024-09-03" bron="Stcrt.2024-27038" effect="nieuwe-regeling" publicatie_bron="2024-09-02" publicatie_iwt="2024-09-02">Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken AIVD 2024<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata></meta-data></citeertitel>
+  <regeling>
+    <aanhef bwb-ng-variabel-deel="/Aanhef" stam-id="17212143" versie-id="30313272" id="C43485991" label-id="17117854" inwerking="2024-09-03" bron="Stcrt.2024-27038" effect="nieuwe-regeling" publicatie_bron="2024-09-02" publicatie_iwt="2024-09-02" status="goed">
+  <wie>De directeur-generaal van de Algemene Inlichtingen- en Veiligheidsdienst,</wie>
+  <considerans>
+    <considerans.al bevat="grondslag">Gelet op <extref doc="jci1.3:c:BWBR0043906&amp;artikel=4" label-id="15513684" verwijzing-id="3330455" bwb-id="BWBR0043906">artikel 4, aanhef en onder 1 en 2, van het Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken BZK 2020</extref>;</considerans.al>
+  </considerans>
+  <afkondiging>
+    <al>Besluit:</al>
+  </afkondiging>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata></meta-data></aanhef>
+    <regeling-tekst>
+      <artikel bwb-ng-variabel-deel="/Artikel1" stam-id="17212153" versie-id="30313282" id="C43486001" label-id="17117864" inwerking="2024-09-03" label="Artikel 1" bron="Stcrt.2024-27038" effect="nieuwe-regeling" publicatie_bron="2024-09-02" publicatie_iwt="2024-09-02" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">1</nr>
+  </kop>
+  <al>In dit besluit wordt onder tekenbevoegdheid verstaan de bevoegdheid om namens de directeur-generaal van de Algemene Inlichtingen- en Veiligheidsdienst besluiten te nemen, stukken af te doen en uitgaande brieven te ondertekenen op grond van de <extref doc="jci1.3:c:BWBR0008277" label-id="180494" verwijzing-id="3330440" bwb-id="BWBR0008277">Wet veiligheidsonderzoeken</extref>.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0050181&amp;artikel=1&amp;g=2025-01-03" onderdeel="artikel=1" korte-verwijzing="1.0:c:BWBR0050181&amp;artikel=1"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=1&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="artikel=1" korte-verwijzing="jci1.3:c:BWBR0050181&amp;artikel=1"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel2" stam-id="17212163" versie-id="30313292" id="C43486011" label-id="17117874" inwerking="2024-09-03" label="Artikel 2" bron="Stcrt.2024-27038" effect="nieuwe-regeling" publicatie_bron="2024-09-02" publicatie_iwt="2024-09-02" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">2</nr>
+  </kop>
+  <al>De directeur Inlichtingen bezit tekenbevoegdheid ten aanzien van de in <extref doc="jci1.3:c:BWBR0043906&amp;artikel=2" label-id="15513664" verwijzing-id="3330456" bwb-id="BWBR0043906">artikel 2, eerste lid, onder a, b, c, d, e en f, van het Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken BZK 2020</extref> bedoelde bevoegdheid.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0050181&amp;artikel=2&amp;g=2025-01-03" onderdeel="artikel=2" korte-verwijzing="1.0:c:BWBR0050181&amp;artikel=2"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=2&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="artikel=2" korte-verwijzing="jci1.3:c:BWBR0050181&amp;artikel=2"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel3" stam-id="17212173" versie-id="30313302" id="C43486021" label-id="17117884" inwerking="2024-09-03" label="Artikel 3" bron="Stcrt.2024-27038" effect="nieuwe-regeling" publicatie_bron="2024-09-02" publicatie_iwt="2024-09-02" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">3</nr>
+  </kop>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid1" label-id="17117884L1">
+    <lidnr status="officieel">1</lidnr>
+    <al>Het unithoofd van het Veiligheidsonderzoekenhuis bezit tekenbevoegdheid ten aanzien van:</al>
+    <lijst level="single" nr-sluiting="." start="1" type="expliciet">
+      <li bwb-ng-variabel-deel="/Artikel3/Lid1/Onderdeela">
+        <li.nr>a.</li.nr>
+        <al>de in <extref doc="jci1.3:c:BWBR0043906&amp;artikel=2" label-id="15513664" verwijzing-id="3330457" bwb-id="BWBR0043906">artikel 2, eerste lid, onder b, van het Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken BZK 2020</extref> bedoelde bevoegdheid betreffende het afgeven van een verklaring van geen bezwaar;</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3&amp;lid=1&amp;o=a&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="o=a"/></jcis></meta-data></li>
+      <li bwb-ng-variabel-deel="/Artikel3/Lid1/Onderdeelb">
+        <li.nr>b.</li.nr>
+        <al>de in <extref doc="jci1.3:c:BWBR0043906&amp;artikel=2" label-id="15513664" verwijzing-id="3330458" bwb-id="BWBR0043906">artikel 2, eerste lid, onder c, van het Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken BZK 2020</extref> bedoelde bevoegdheid betreffende het weigeren van een verklaring van geen bezwaar;</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3&amp;lid=1&amp;o=b&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="o=b"/></jcis></meta-data></li>
+      <li bwb-ng-variabel-deel="/Artikel3/Lid1/Onderdeelc">
+        <li.nr>c.</li.nr>
+        <al>de in <extref doc="jci1.3:c:BWBR0043906&amp;artikel=2" label-id="15513664" verwijzing-id="3330459" bwb-id="BWBR0043906">artikel 2, eerste lid, onder d, van het Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken BZK 2020</extref> bedoelde bevoegdheid betreffende het doen instellen van een hernieuwd veiligheidsonderzoek;</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3&amp;lid=1&amp;o=c&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="o=c"/></jcis></meta-data></li>
+      <li bwb-ng-variabel-deel="/Artikel3/Lid1/Onderdeeld">
+        <li.nr>d.</li.nr>
+        <al>de in <extref doc="jci1.3:c:BWBR0043906&amp;artikel=2" label-id="15513664" verwijzing-id="3330460" bwb-id="BWBR0043906">artikel 2, eerste lid, onder f, van het Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken BZK 2020</extref> bedoelde bevoegdheid betreffende het doen van mededelingen aan een andere mogendheid of aan een volkenrechtelijke organisatie, dan wel het doen van een kennisgeving.</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3&amp;lid=1&amp;o=d&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="o=d"/></jcis></meta-data></li>
+    </lijst>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3&amp;lid=1&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=1"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid2" label-id="17117884L2">
+    <lidnr status="officieel">2</lidnr>
+    <al>In afwijking van het eerste lid, onder b, is de aldaar bedoelde bevoegdheid voorbehouden aan de directeur Inlichtingen indien het weigeren volgt op een veiligheidsonderzoek dat verricht is ten behoeve van de afgifte van een verklaring voor beoogd eigen personeel van de Algemene Inlichtingen- en Veiligheidsdienst.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3&amp;lid=2&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=2"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid3" label-id="17117884L3">
+    <lidnr status="officieel">3</lidnr>
+    <al>In afwijking van het eerste lid, onder b en d, is de aldaar bedoelde bevoegdheid voorbehouden aan de directeur Inlichtingen indien bij de uitoefening van deze bevoegdheid gebruik wordt gemaakt van gegevens bedoeld in <extref doc="jci1.3:c:BWBR0008277&amp;artikel=7" label-id="180164" verwijzing-id="3330446" bwb-id="BWBR0008277">artikel 7, tweede lid, onder b en c</extref>, onderscheidenlijk <extref doc="jci1.3:c:BWBR0008277&amp;artikel=13" label-id="180274" verwijzing-id="3330447" bwb-id="BWBR0008277">artikel 13, vierde lid, onder b en c, van de Wet veiligheidsonderzoeken</extref>.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3&amp;lid=3&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=3"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid4" label-id="17117884L4">
+    <lidnr status="officieel">4</lidnr>
+    <al>In afwijking van het eerste lid, onder c, is de aldaar bedoelde bevoegdheid voorbehouden aan de directeur Inlichtingen indien de uitoefening van deze bevoegdheid betrekking heeft op het eigen personeel van de Algemene Inlichtingen- en Veiligheidsdienst en het gevolg is van nieuwe feiten en omstandigheden die een hernieuwd onderzoek rechtvaardigen.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3&amp;lid=4&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=4"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel3/Lid5" label-id="17117884L5">
+    <lidnr status="officieel">5</lidnr>
+    <al>Bij tijdelijke afwezigheid of verhindering van het unithoofd van het Veiligheidsonderzoekenhuis wordt de in <extref doc="jci1.3:c:BWBR0043906&amp;artikel=2" label-id="15513664" verwijzing-id="3330461" bwb-id="BWBR0043906">artikel 2, eerste lid, onder b, van het Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken BZK 2020</extref> bedoelde bevoegdheid betreffende het afgeven van een verklaring van geen bezwaar uitgeoefend door het plaatsvervangend unithoofd van het Veiligheidsonderzoekenhuis.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3&amp;lid=5&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=5"/></jcis></meta-data></lid>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0050181&amp;artikel=3&amp;g=2025-01-03" onderdeel="artikel=3" korte-verwijzing="1.0:c:BWBR0050181&amp;artikel=3"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="artikel=3" korte-verwijzing="jci1.3:c:BWBR0050181&amp;artikel=3"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel4" stam-id="17212183" versie-id="30549382" id="C43789691" label-id="17117894" inwerking="2025-01-03" label="Artikel 4" bron="Stcrt.2025-1132" effect="wijziging" publicatie_bron="2025-01-02" publicatie_iwt="2025-01-02" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">4</nr>
+  </kop>
+  <lid bwb-ng-variabel-deel="/Artikel4/Lid1" label-id="17117894L1">
+    <lidnr status="officieel">1</lidnr>
+    <al>De onder de directeur-generaal van de Algemene Inlichtingen- en Veiligheidsdienst ressorterende hoofden van de teams van de Unit Veiligheidsonderzoeken bezitten tekenbevoegdheid ten aanzien van:</al>
+    <lijst level="single" nr-sluiting="." start="1" type="expliciet">
+      <li bwb-ng-variabel-deel="/Artikel4/Lid1/Onderdeela">
+        <li.nr>a.</li.nr>
+        <al>de in <extref doc="jci1.3:c:BWBR0043906&amp;artikel=2" label-id="15513664" verwijzing-id="3330462" bwb-id="BWBR0043906">artikel 2, eerste lid, onder b, van het Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken BZK 2020</extref> bedoelde bevoegdheid betreffende het afgeven van een verklaring van geen bezwaar.</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=4&amp;lid=1&amp;o=a&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="o=a"/></jcis></meta-data></li>
+      <li bwb-ng-variabel-deel="/Artikel4/Lid1/Onderdeelb">
+        <li.nr>b.</li.nr>
+        <al>de in <extref doc="jci1.3:c:BWBR0043906&amp;artikel=2" label-id="15513664" verwijzing-id="3330463" bwb-id="BWBR0043906">artikel 2, eerste lid, onder f, van het Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken BZK 2020</extref> bedoelde bevoegdheid betreffende het doen van mededelingen aan een andere mogendheid of aan een volkenrechtelijke organisatie, dan wel het doen van een kennisgeving;</al>
+      <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=4&amp;lid=1&amp;o=b&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="o=b"/></jcis></meta-data></li>
+    </lijst>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=4&amp;lid=1&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=1"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel4/Lid2" label-id="17117894L2">
+    <lidnr status="officieel">2</lidnr>
+    <al>De onder de directeur-generaal van de Algemene Inlichtingen- en Veiligheidsdienst ressorterende hoofden van de teams van de Unit Veiligheidsonderzoeken bezitten tekenbevoegdheid ten aanzien van de in <extref doc="jci1.3:c:BWBR0043906&amp;artikel=2" label-id="15513664" verwijzing-id="3330464" bwb-id="BWBR0043906">artikel 2, eerste lid, onder c, van het Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken BZK 2020</extref> bedoelde bevoegdheid betreffende het weigeren van een verklaring van geen bezwaar.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=4&amp;lid=2&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=2"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel4/Lid3" label-id="17117894L3">
+    <lidnr status="officieel">3</lidnr>
+    <al>In afwijking van het eerste lid, onder a, is de aldaar bedoelde bevoegdheid voorbehouden aan het unithoofd van het Veiligheidsonderzoekenhuis indien een verklaring wordt afgegeven na een aanvankelijk voornemen tot weigeren van deze verklaring.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=4&amp;lid=3&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=3"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel4/Lid4" label-id="17117894L4">
+    <lidnr status="officieel">4</lidnr>
+    <al>In afwijking van het tweede lid is de aldaar bedoelde bevoegdheid voorbehouden aan de directeur Inlichtingen indien het weigeren volgt op een veiligheidsonderzoek dat verricht is ten behoeve van de afgifte van een verklaring voor beoogd eigen personeel van de Algemene Inlichtingen- en Veiligheidsdienst.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=4&amp;lid=4&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=4"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel4/Lid5" label-id="17117894L5">
+    <lidnr status="officieel">5</lidnr>
+    <al>In afwijking van het tweede lid is de aldaar bedoelde bevoegdheid voorbehouden aan de directeur Inlichtingen indien bij de uitoefening van deze bevoegdheid geheel of gedeeltelijk gebruik wordt gemaakt van gegevens bedoeld in <extref doc="jci1.3:c:BWBR0008277&amp;artikel=7" label-id="180164" verwijzing-id="3330452" bwb-id="BWBR0008277">artikel 7, tweede lid, onder b en c van de Wet veiligheidsonderzoeken</extref>.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=4&amp;lid=5&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=5"/></jcis></meta-data></lid>
+  <lid bwb-ng-variabel-deel="/Artikel4/Lid6" label-id="17117894L6">
+    <lidnr status="officieel">6</lidnr>
+    <al>In afwijking van het eerste lid, onder b, is de aldaar bedoelde bevoegdheid voorbehouden aan het unithoofd van het Veiligheidsonderzoekenhuis indien deze mededeling ten opzichte van betrokkene nadelige conclusies bevat.</al>
+  <meta-data><jcis><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=4&amp;lid=6&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="lid=6"/></jcis></meta-data></lid>
+<meta-data><brondata><oorspronkelijk><publicatie effect="wijziging" soort="Stcrt" urlidentifier="stcrt-2025-1132"><publicatiejaar>2025</publicatiejaar><publicatienr>1132</publicatienr><uitgiftedatum isodatum="2025-01-02">02-01-2025</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="wijziging" soort="Stcrt" urlidentifier="stcrt-2025-1132"><publicatiejaar>2025</publicatiejaar><publicatienr>1132</publicatienr><uitgiftedatum isodatum="2025-01-02">02-01-2025</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2025-01-03">03-01-2025</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0050181&amp;artikel=4&amp;g=2025-01-03" onderdeel="artikel=4" korte-verwijzing="1.0:c:BWBR0050181&amp;artikel=4"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=4&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="artikel=4" korte-verwijzing="jci1.3:c:BWBR0050181&amp;artikel=4"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel5" stam-id="17212193" versie-id="30313322" id="C43486041" label-id="17117904" inwerking="2024-09-03" label="Artikel 5" bron="Stcrt.2024-27038" effect="nieuwe-regeling" publicatie_bron="2024-09-02" publicatie_iwt="2024-09-02" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">5</nr>
+  </kop>
+  <al>Dit besluit treedt in werking met ingang van de dag na datum van uitgifte van de Staatscourant waarin het wordt geplaatst.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0050181&amp;artikel=5&amp;g=2025-01-03" onderdeel="artikel=5" korte-verwijzing="1.0:c:BWBR0050181&amp;artikel=5"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=5&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="artikel=5" korte-verwijzing="jci1.3:c:BWBR0050181&amp;artikel=5"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel6" stam-id="17212203" versie-id="30313332" id="C43486051" label-id="17117914" inwerking="2024-09-03" label="Artikel 6" bron="Stcrt.2024-27038" effect="nieuwe-regeling" publicatie_bron="2024-09-02" publicatie_iwt="2024-09-02" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">6</nr>
+  </kop>
+  <al>Het <extref doc="jci1.3:c:BWBR0043924" label-id="15516694" verwijzing-id="3330453" bwb-id="BWBR0043924">Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken AIVD 2020</extref> wordt ingetrokken.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0050181&amp;artikel=6&amp;g=2025-01-03" onderdeel="artikel=6" korte-verwijzing="1.0:c:BWBR0050181&amp;artikel=6"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=6&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="artikel=6" korte-verwijzing="jci1.3:c:BWBR0050181&amp;artikel=6"/></jcis></meta-data></artikel>
+      <artikel bwb-ng-variabel-deel="/Artikel7" stam-id="17212213" versie-id="30313342" id="C43486061" label-id="17117924" inwerking="2024-09-03" label="Artikel 7" bron="Stcrt.2024-27038" effect="nieuwe-regeling" publicatie_bron="2024-09-02" publicatie_iwt="2024-09-02" status="goed">
+  <kop>
+    <label>Artikel</label>
+    <nr status="officieel">7</nr>
+  </kop>
+  <al>Dit besluit wordt aangehaald als: Besluit tekenbevoegdheid vertrouwensfuncties en veiligheidsonderzoeken AIVD 2024.</al>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0050181&amp;artikel=7&amp;g=2025-01-03" onderdeel="artikel=7" korte-verwijzing="1.0:c:BWBR0050181&amp;artikel=7"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;artikel=7&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="artikel=7" korte-verwijzing="jci1.3:c:BWBR0050181&amp;artikel=7"/></jcis></meta-data></artikel>
+    </regeling-tekst>
+    <regeling-sluiting bwb-ng-variabel-deel="/SlotformulierEnOndertekening" stam-id="17212223" versie-id="30313352" id="C43486071" label-id="17117934" inwerking="2024-09-03" bron="Stcrt.2024-27038" effect="nieuwe-regeling" publicatie_bron="2024-09-02" publicatie_iwt="2024-09-02" status="goed">
+  <slotformulering>
+    <al>Dit besluit zal in afschrift worden gezonden aan de Minister van Binnenlandse Zaken en Koninkrijksrelaties en belanghebbende functionarissen.</al>
+  </slotformulering>
+  <ondertekening>
+    <functie>Directeur-generaal van de Algemene Inlichtingen- en Veiligheidsdienst,</functie>
+    <naam>
+      <voornaam>E.S.M.</voornaam>
+      <achternaam>Akerboom</achternaam>
+    </naam>
+  </ondertekening>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata></meta-data></regeling-sluiting>
+  </regeling>
+<meta-data><brondata><oorspronkelijk><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie></oorspronkelijk><inwerkingtreding><publicatie effect="nieuwe-regeling" soort="Stcrt" urlidentifier="stcrt-2024-27038"><publicatiejaar>2024</publicatiejaar><publicatienr>27038</publicatienr><uitgiftedatum isodatum="2024-09-02">02-09-2024</uitgiftedatum></publicatie><inwerkingtreding.datum isodatum="2024-09-03">03-09-2024</inwerkingtreding.datum></inwerkingtreding></brondata><jcis><jci versie="1.0" verwijzing="1.0:c:BWBR0050181&amp;g=2025-01-03" onderdeel="wetgeving" korte-verwijzing="1.0:c:BWBR0050181"/><jci versie="1.3" verwijzing="jci1.3:c:BWBR0050181&amp;z=2025-01-03&amp;g=2025-01-03" onderdeel="wetgeving" korte-verwijzing="jci1.3:c:BWBR0050181"/></jcis></meta-data></wetgeving></toestand>

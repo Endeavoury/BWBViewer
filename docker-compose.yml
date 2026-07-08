@@ -1,0 +1,21 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      DATA_PATH: /data
+      ASPNETCORE_URLS: http://+:8080
+    volumes:
+      - ./data:/data:ro
+    expose:
+      - "8080"
+    restart: unless-stopped
+
+  ui:
+    build:
+      context: ./ui
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+    restart: unless-stopped
