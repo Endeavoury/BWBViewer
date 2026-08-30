@@ -4,16 +4,14 @@ on:
   push:
     branches:
       - master
+      - "release/**"
     tags:
       - "v*"
   pull_request:
     branches:
       - master
+      - "release/**"
   workflow_dispatch:
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
 
 env:
   REGISTRY: ghcr.io
@@ -58,9 +56,115 @@ jobs:
         working-directory: ui
         run: npm run build
 
+  reserve-version:
+    name: Reserve semantic version
+    needs: validate
+    if: >-
+      (github.event_name == 'push' || github.event_name == 'workflow_dispatch') &&
+      github.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      tag: ${{ steps.version.outputs.tag }}
+      version: ${{ steps.version.outputs.version }}
+      major_minor: ${{ steps.version.outputs.major_minor }}
+
+    steps:
+      - name: Check out repository and tags
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create the next patch tag
+        id: version
+        shell: bash
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+
+          base_version=$(tr -d '[:space:]' < VERSION)
+          if [[ ! "$base_version" =~ ^([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+            echo "VERSION must contain a stable semantic version (for example 1.0.0)." >&2
+            exit 1
+          fi
+
+          major=${BASH_REMATCH[1]}
+          minor=${BASH_REMATCH[2]}
+          base_patch=${BASH_REMATCH[3]}
+          tag=""
+
+          for attempt in {1..10}; do
+            git fetch --force --tags origin
+            mapfile -t commit_tags < <(git tag --points-at "$GITHUB_SHA" --list "v${major}.${minor}.*" --sort=-version:refname)
+
+            for candidate in "${commit_tags[@]}"; do
+              if [[ "$candidate" =~ ^v${major}\.${minor}\.[0-9]+$ ]]; then
+                tag=$candidate
+                break
+              fi
+            done
+
+            if [[ -n "$tag" ]]; then
+              break
+            fi
+
+            latest_patch=""
+            mapfile -t line_tags < <(git tag --list "v${major}.${minor}.*" --sort=-version:refname)
+            for candidate in "${line_tags[@]}"; do
+              if [[ "$candidate" =~ ^v${major}\.${minor}\.([0-9]+)$ ]]; then
+                latest_patch=${BASH_REMATCH[1]}
+                break
+              fi
+            done
+
+            if [[ -z "$latest_patch" ]]; then
+              if [[ "$GITHUB_REF_NAME" == "$DEFAULT_BRANCH" ]]; then
+                next_patch=$((base_patch + 1))
+              else
+                next_patch=$base_patch
+              fi
+            else
+              next_patch=$((latest_patch + 1))
+            fi
+
+            tag="v${major}.${minor}.${next_patch}"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git tag --annotate "$tag" "$GITHUB_SHA" --message "Nomopsis ${tag#v}"
+
+            if git push origin "refs/tags/$tag"; then
+              break
+            fi
+
+            echo "Version reservation attempt $attempt conflicted; retrying."
+            git tag --delete "$tag"
+            tag=""
+          done
+
+          if [[ -z "$tag" ]]; then
+            echo "Could not reserve a version after 10 attempts." >&2
+            exit 1
+          fi
+
+          version=${tag#v}
+          {
+            echo "tag=$tag"
+            echo "version=$version"
+            echo "major_minor=${major}.${minor}"
+          } >> "$GITHUB_OUTPUT"
+          echo "Reserved $tag for $GITHUB_SHA"
+
   containers:
     name: Build ${{ matrix.component }} image
-    needs: validate
+    needs:
+      - validate
+      - reserve-version
+    if: >-
+      always() &&
+      needs.validate.result == 'success' &&
+      (needs.reserve-version.result == 'success' || needs.reserve-version.result == 'skipped')
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -102,6 +206,8 @@ jobs:
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
+            type=raw,value=${{ needs.reserve-version.outputs.version }},enable=${{ needs.reserve-version.outputs.version != '' }}
+            type=raw,value=${{ needs.reserve-version.outputs.major_minor }},enable=${{ needs.reserve-version.outputs.major_minor != '' }}
             type=sha,prefix=sha-
             type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
 
@@ -117,4 +223,31 @@ jobs:
           provenance: mode=max
           sbom: true
           cache-from: type=gha,scope=${{ matrix.component }}
-          cache-to: type=gha,mode=max,scope=${{ matrix.component }}
+          cache-to: type=gha,mode=max,scope=${{ matrix.component }},ignore-error=true
+
+  release:
+    name: Publish GitHub Release
+    needs:
+      - reserve-version
+      - containers
+    if: needs.reserve-version.outputs.tag != '' && needs.containers.result == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ needs.reserve-version.outputs.tag }}
+          RELEASE_VERSION: ${{ needs.reserve-version.outputs.version }}
+        run: |
+          if gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release $RELEASE_TAG already exists."
+          else
+            gh release create "$RELEASE_TAG" \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "Nomopsis $RELEASE_VERSION" \
+              --generate-notes \
+              --verify-tag
+          fi

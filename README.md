@@ -76,6 +76,25 @@ docker pull ghcr.io/endeavoury/nomopsis-ui:latest
 
 The token needs at least the `read:packages` scope. Images built from a fork are published under that fork owner's GHCR namespace.
 
+## Releases and versioning
+
+Nomopsis uses semantic versions and its current baseline is `1.0.0`. Every successful commit build on `master` reserves the next `1.0.x` tag, beginning with `v1.0.1`, publishes both container images with that exact version, and creates a GitHub Release with generated release notes. Re-running a workflow for the same commit reuses its existing version instead of incrementing it again.
+
+The `VERSION` file defines the semantic-version line for a branch:
+
+| Branch | Version line | Example releases |
+| --- | --- | --- |
+| `master` | `1.0.x` | `v1.0.1`, `v1.0.2`, `v1.0.3` |
+| `release/1.1` | `1.1.x` | `v1.1.0`, `v1.1.1`, `v1.1.2` |
+| `release/2.x` | `2.0.x` | `v2.0.0`, `v2.0.1`, `v2.0.2` |
+
+To start a new release line, open **Actions → Create release branch → Run workflow** and choose:
+
+- `minor` to create the next `release/<major>.<minor>` branch;
+- `major` to create the next `release/<major>.x` branch.
+
+The branch workflow calculates the next line from the highest stable tag, updates `VERSION` and the application manifests, commits those changes, and pushes the new branch. Subsequent commits to that branch automatically receive patch releases. The repository's GitHub Actions **Workflow permissions** must allow read and write access so the workflows can push tags, branches, packages, and releases.
+
 ## BWB XML data
 
 Nomopsis scans the configured data directory for top-level `*.xml` files. It uses the root `bwb-id` attribute as the law slug. If that attribute is absent, a `BWBR` identifier is extracted from the filename; otherwise, the filename without its extension is used.
