@@ -88,8 +88,8 @@ function App() {
     <>
       <header className="app-header">
         <div>
-          <p className="eyebrow">BWB XML viewer</p>
-          <h1>{model?.shortTitle ?? "Wet Viewer"}</h1>
+          <p className="eyebrow">Nomopsis</p>
+          <h1>{model?.shortTitle ?? "Nederlandse wetgeving"}</h1>
         </div>
         <a className="api-link" href="/swagger">Swagger</a>
       </header>

@@ -1,4 +1,4 @@
-using WetViewer.Api.Services;
+using Nomopsis.Api.Services;
 
 var tests = new (string Name, Action Test)[]
 {
@@ -61,7 +61,7 @@ static void XmlParserExtractsArticleAnchorsAndInlineText()
 
     try
     {
-        var summary = new WetViewer.Api.Models.LawSummary("BWBR0099999", "BWBR0099999", "Testwet", "wet", "2026-01-01", Path.GetFileName(tempFile), "/api/wetten/BWBR0099999/xml");
+        var summary = new Nomopsis.Api.Models.LawSummary("BWBR0099999", "BWBR0099999", "Testwet", "wet", "2026-01-01", Path.GetFileName(tempFile), "/api/wetten/BWBR0099999/xml");
         var parsed = LawXmlParser.Parse(tempFile, summary);
         var article = parsed.Sections.Single().Children.Single();
         AssertEqual("artikel-6", article.Id);

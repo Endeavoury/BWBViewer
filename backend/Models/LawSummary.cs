@@ -1,4 +1,4 @@
-namespace WetViewer.Api.Models;
+namespace Nomopsis.Api.Models;
 
 public sealed record LawSummary(
     string Slug,

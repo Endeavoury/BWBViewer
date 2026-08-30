@@ -1,5 +1,5 @@
-using WetViewer.Api.Endpoints;
-using WetViewer.Api.Services;
+using Nomopsis.Api.Endpoints;
+using Nomopsis.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

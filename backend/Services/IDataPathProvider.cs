@@ -1,4 +1,4 @@
-namespace WetViewer.Api.Services;
+namespace Nomopsis.Api.Services;
 
 public interface IDataPathProvider
 {

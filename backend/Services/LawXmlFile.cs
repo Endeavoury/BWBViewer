@@ -1,5 +1,5 @@
-using WetViewer.Api.Models;
+using Nomopsis.Api.Models;
 
-namespace WetViewer.Api.Services;
+namespace Nomopsis.Api.Services;
 
 public sealed record LawXmlFile(string Path, LawSummary Summary);

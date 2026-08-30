@@ -1,4 +1,4 @@
-# Wet Viewer
+# Nomopsis
 
 Run with Docker Compose:
 

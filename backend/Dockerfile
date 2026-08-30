@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
-COPY WetViewer.Api.csproj ./
+COPY Nomopsis.Api.csproj ./
 RUN dotnet restore
 COPY . ./
 RUN dotnet publish -c Release -o /app/publish --no-restore
@@ -10,4 +10,4 @@ WORKDIR /app
 COPY --from=build /app/publish ./
 ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
-ENTRYPOINT ["dotnet", "WetViewer.Api.dll"]
+ENTRYPOINT ["dotnet", "Nomopsis.Api.dll"]

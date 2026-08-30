@@ -1,7 +1,7 @@
 using System.Text.Json;
-using WetViewer.Api.OpenApi;
+using Nomopsis.Api.OpenApi;
 
-namespace WetViewer.Api.Endpoints;
+namespace Nomopsis.Api.Endpoints;
 
 public static class SwaggerEndpoints
 {

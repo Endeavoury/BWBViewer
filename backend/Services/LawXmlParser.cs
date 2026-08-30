@@ -1,9 +1,9 @@
 using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Linq;
-using WetViewer.Api.Models;
+using Nomopsis.Api.Models;
 
-namespace WetViewer.Api.Services;
+namespace Nomopsis.Api.Services;
 
 public static partial class LawXmlParser
 {

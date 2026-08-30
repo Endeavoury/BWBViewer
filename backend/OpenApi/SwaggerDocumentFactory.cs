@@ -1,4 +1,4 @@
-namespace WetViewer.Api.OpenApi;
+namespace Nomopsis.Api.OpenApi;
 
 public static class SwaggerDocumentFactory
 {
@@ -7,7 +7,7 @@ public static class SwaggerDocumentFactory
         openapi = "3.0.1",
         info = new
         {
-            title = "BWB Viewer API",
+            title = "Nomopsis API",
             version = "v1",
             description = "API voor het opvragen van Nederlandse wetten uit de gekoppelde /data-map."
         },
@@ -77,7 +77,7 @@ public static class SwaggerDocumentFactory
     <html>
       <head>
         <meta charset="utf-8">
-        <title>BWB Viewer API-documentatie</title>
+        <title>Nomopsis API-documentatie</title>
         <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5/swagger-ui.css">
       </head>
       <body>

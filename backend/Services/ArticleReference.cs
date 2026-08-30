@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace WetViewer.Api.Services;
+namespace Nomopsis.Api.Services;
 
 public sealed partial record ArticleReference(string Article, string? Paragraph, string? Subparagraph)
 {

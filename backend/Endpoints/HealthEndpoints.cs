@@ -1,4 +1,4 @@
-namespace WetViewer.Api.Endpoints;
+namespace Nomopsis.Api.Endpoints;
 
 public static class HealthEndpoints
 {

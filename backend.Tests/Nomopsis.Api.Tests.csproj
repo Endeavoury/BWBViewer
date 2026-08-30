@@ -6,6 +6,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\backend\WetViewer.Api.csproj" />
+    <ProjectReference Include="..\backend\Nomopsis.Api.csproj" />
   </ItemGroup>
 </Project>

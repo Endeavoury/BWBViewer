@@ -1,6 +1,6 @@
-using WetViewer.Api.Services;
+using Nomopsis.Api.Services;
 
-namespace WetViewer.Api.Endpoints;
+namespace Nomopsis.Api.Endpoints;
 
 public static class WettenEndpoints
 {

@@ -1,7 +1,7 @@
 using System.Xml;
 using System.Xml.Linq;
 
-namespace WetViewer.Api.Services;
+namespace Nomopsis.Api.Services;
 
 public static class LawArticleFilter
 {
