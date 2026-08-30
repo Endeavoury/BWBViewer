@@ -1,0 +1,82 @@
+name: Create release branch
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: Select the next semantic-version release line
+        required: true
+        type: choice
+        options:
+          - minor
+          - major
+
+jobs:
+  create:
+    name: Create ${{ inputs.release_type }} release branch
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: write
+
+    steps:
+      - name: Check out the default branch and tags
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Create and publish release branch
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          base_version=$(tr -d '[:space:]' < VERSION)
+          mapfile -t stable_tags < <(git tag --list 'v*' --sort=-version:refname)
+
+          for candidate in "${stable_tags[@]}"; do
+            if [[ "$candidate" =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+              tagged_version=${candidate#v}
+              if [[ "$(printf '%s\n%s\n' "$base_version" "$tagged_version" | sort -V | tail -n 1)" == "$tagged_version" ]]; then
+                base_version=$tagged_version
+              fi
+              break
+            fi
+          done
+
+          if [[ ! "$base_version" =~ ^([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+            echo "Could not determine the current stable semantic version." >&2
+            exit 1
+          fi
+
+          major=${BASH_REMATCH[1]}
+          minor=${BASH_REMATCH[2]}
+
+          if [[ "${{ inputs.release_type }}" == "major" ]]; then
+            next_version="$((major + 1)).0.0"
+            branch="release/$((major + 1)).x"
+          else
+            next_version="${major}.$((minor + 1)).0"
+            branch="release/${major}.$((minor + 1))"
+          fi
+
+          if git ls-remote --exit-code --heads origin "refs/heads/$branch" >/dev/null 2>&1; then
+            echo "Branch $branch already exists." >&2
+            exit 1
+          fi
+
+          git switch --create "$branch"
+          printf '%s\n' "$next_version" > VERSION
+          npm version "$next_version" --prefix ui --no-git-tag-version
+          sed -i -E "s#<Version>[^<]+</Version>#<Version>${next_version}</Version>#" backend/Nomopsis.Api.csproj
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add VERSION ui/package.json ui/package-lock.json backend/Nomopsis.Api.csproj
+          git commit --message "chore: start ${next_version} release line"
+          git push origin "$branch"
+          gh workflow run ci.yml --repo "$GITHUB_REPOSITORY" --ref "$branch"
+
+          echo "Created $branch at version $next_version and dispatched its first release build." >> "$GITHUB_STEP_SUMMARY"
