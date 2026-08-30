@@ -1,39 +1,54 @@
-name: CI
+name: "CI/CD"
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+    tags:
+      - "v*"
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  REGISTRY: ghcr.io
 
 jobs:
-  build:
+  validate:
+    name: Validate application
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
-      - name: Checkout
+      - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Setup .NET
+      - name: Set up .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '9.0.x'
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: npm
-          cache-dependency-path: ui/package-lock.json
+          dotnet-version: "9.0.x"
 
       - name: Restore backend
-        run: dotnet restore backend/WetViewer.Api.csproj
+        run: dotnet restore backend.Tests/Nomopsis.Api.Tests.csproj
 
-      - name: Build backend
-        run: dotnet build backend/WetViewer.Api.csproj --configuration Release --no-restore
+      - name: Build backend and tests
+        run: dotnet build backend.Tests/Nomopsis.Api.Tests.csproj --configuration Release --no-restore
 
-      - name: Run backend unit tests
-        run: dotnet run --project backend.Tests/WetViewer.Api.Tests.csproj --configuration Release
+      - name: Run backend checks
+        run: dotnet run --project backend.Tests/Nomopsis.Api.Tests.csproj --configuration Release --no-build
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: ui/package-lock.json
 
       - name: Install UI dependencies
         working-directory: ui
@@ -43,5 +58,63 @@ jobs:
         working-directory: ui
         run: npm run build
 
-      - name: Docker build
-        run: docker compose build
+  containers:
+    name: Build ${{ matrix.component }} image
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - component: backend
+            context: ./backend
+            image: nomopsis-backend
+          - component: ui
+            context: ./ui
+            image: nomopsis-ui
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GitHub Container Registry
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate image metadata
+        id: metadata
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ matrix.image }}
+          tags: |
+            type=ref,event=branch
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}
+            type=sha,prefix=sha-
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
+
+      - name: Build and publish image
+        uses: docker/build-push-action@v6
+        with:
+          context: ${{ matrix.context }}
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ steps.metadata.outputs.tags }}
+          labels: ${{ steps.metadata.outputs.labels }}
+          platforms: linux/amd64
+          pull: true
+          provenance: mode=max
+          sbom: true
+          cache-from: type=gha,scope=${{ matrix.component }}
+          cache-to: type=gha,mode=max,scope=${{ matrix.component }}
